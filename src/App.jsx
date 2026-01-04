@@ -7,10 +7,10 @@ function index() {
   return (
     <>
       <header className='flex-container-header container'>
-        <img class="logo-header" src="./img/dc-logo.png" alt="logo" />
+        <img className="logo-header" src="./img/dc-logo.png" alt="logo" />
 
         <nav>
-          <ul className='flex-container'>
+          <ul className='gap-links'>
             <li><a href="#">CHARACTERS</a></li>
             <li><a href="#">COMICS</a></li>
             <li><a href="#">MOVIES</a></li>
@@ -26,14 +26,12 @@ function index() {
       </header>
 
       <main>
-        <div className='bg-black'>
-          <div className='container flex-container'>
-            <p className='text-white'> Content goes here </p>
-          </div>
+        <div className='container-img-jumbotron'>
+          <div className='img-jumbotron'></div>
         </div>
 
         <div className='bg-azure'>
-          <div className='container flex-container'>
+          <div className='container main-flex-container'>
             <div className='flex-container'>
               <img className='img-width' src="./img/buy-comics-digital-comics.png" alt="digital comics" />
               <a href="#">DIGITAL COMICS</a>
@@ -63,43 +61,41 @@ function index() {
         <div className='img-bg-footer'>
           <div className='container flex-container'>
             <div>
-              <p>DC COMICS</p>
-              <div>
-                <a href="#">Characters</a> <br />
-                <a href="#">Comics</a> <br />
-                <a href="">Movies</a> <br />
-                <a href="">TV</a> <br />
-                <a href="">Games</a> <br />
-                <a href="#">Videos</a> <br />
-                <a href="#">News</a> <br />
-              </div>
-              <p>SHOP</p>
-              <a href="#">Shop DC</a> <br />
-              <a href="#">Shop DC Collectibles</a> <br />
+              <p className='text-white'>DC COMICS</p>
+              <a href="#" className='text-gray'>Characters</a> <br />
+              <a href="#" className='text-gray'>Comics</a> <br />
+              <a href="#" className='text-gray'>Movies</a> <br />
+              <a href="#" className='text-gray'>TV</a> <br />
+              <a href="#" className='text-gray'>Games</a> <br />
+              <a href="#" className='text-gray'>Videos</a> <br />
+              <a href="#" className='text-gray'>News</a> <br />
+              <p className='text-white'>SHOP</p>
+              <a href="#" className='text-gray'>Shop DC</a> <br />
+              <a href="#" className='text-gray'>Shop DC Collectibles</a> <br />
             </div>
 
             <div>
-              <p>DC</p>
-              <a href="#">Terms of Use</a> <br />
-              <a href="#">Privacy policy (New)</a> <br />
-              <a href="#">Ad Choices</a> <br />
-              <a href="#">Advertising</a> <br />
-              <a href="#">Jobs</a> <br />
-              <a href="#">Subscriptions</a> <br />
-              <a href="#">Talent Workshops</a> <br />
-              <a href="#">CPSC Certificates</a> <br />
-              <a href="#">Ratings</a> <br />
-              <a href="#">Shop Help</a> <br />
-              <a href="#">Contact Us</a> <br />
+              <p className='text-white'>DC</p>
+              <a href="#" className='text-gray'>Terms of Use</a> <br />
+              <a href="#" className='text-gray'>Privacy policy (New)</a> <br />
+              <a href="#" className='text-gray'>Ad Choices</a> <br />
+              <a href="#" className='text-gray'>Advertising</a> <br />
+              <a href="#" className='text-gray'>Jobs</a> <br />
+              <a href="#" className='text-gray'>Subscriptions</a> <br />
+              <a href="#" className='text-gray'>Talent Workshops</a> <br />
+              <a href="#" className='text-gray'>CPSC Certificates</a> <br />
+              <a href="#" className='text-gray'>Ratings</a> <br />
+              <a href="#" className='text-gray'>Shop Help</a> <br />
+              <a href="#" className='text-gray'>Contact Us</a> <br />
             </div>
 
             <div>
-              <p>SITES</p>
-              <a href="#">DC</a> <br />
-              <a href="#">MAD Magazine</a> <br />
-              <a href="#">DC Kids</a> <br />
-              <a href="#">DC Universe</a> <br />
-              <a href="#">DC Power Visa</a> <br />
+              <p className='text-white'>SITES</p>
+              <a href="#" className='text-gray'>DC</a> <br />
+              <a href="#" className='text-gray' >MAD Magazine</a> <br />
+              <a href="#" className='text-gray' >DC Kids</a> <br />
+              <a href="#" className='text-gray'>DC Universe</a> <br />
+              <a href="#" className='text-gray'>DC Power Visa</a> <br />
             </div>
 
             <div>
@@ -109,10 +105,10 @@ function index() {
         </div>
 
         <div className='bg-footer'>
-          <div className='container flex-container'>
-            <button>SIGN-UP NOW!</button>
-            <div className='flex-container'>
-              <p>FOLLOW US</p>
+          <div className='container footer-bar'>
+            <button className='text-white-botton'>SIGN-UP NOW!</button>
+            <div className='footer-social'>
+              <p className='text-azure'>FOLLOW US</p>
               <figure>
                 <img src="./img/footer-facebook.png" alt="facebook" />
                 <img src="./img/footer-twitter.png" alt="twitter" />
@@ -122,7 +118,7 @@ function index() {
             </div>
           </div>
         </div>
-      </footer>
+      </footer >
     </>
   )
 }
