@@ -1,8 +1,6 @@
-import './index.css'
+import "./index.css";
 
-function index() {
-
-
+function App() {
 
   return (
     <>
@@ -34,23 +32,23 @@ function index() {
           <div className='container main-flex-container'>
             <div className='flex-container'>
               <img className='img-width' src="./img/buy-comics-digital-comics.png" alt="digital comics" />
-              <a href="#">DIGITAL COMICS</a>
+              <a href="#" className='text-white-main'>DIGITAL COMICS</a>
             </div>
             <div className='flex-container'>
               <img className='img-width' src="./img/buy-comics-merchandise.png" alt="dc merchandise" />
-              <a href="#">DC MERCHANDISE</a>
+              <a href="#" className='text-white-main'>DC MERCHANDISE</a>
             </div>
             <div className='flex-container'>
               <img className='img-width' src="./img/buy-comics-subscriptions.png" alt="subscription" />
-              <a href="#">SUBSCRIPTION</a>
+              <a href="#" className='text-white-main'>SUBSCRIPTION</a>
             </div>
             <div className='flex-container'>
               <img className='img-width' src="./img/buy-comics-shop-locator.png" alt="comics shop locator" />
-              <a href="#">COMICS SHOP LOCATOR</a>
+              <a href="#" className='text-white-main'>COMICS SHOP LOCATOR</a>
             </div>
             <div className='flex-container'>
               <img className='img-width' src="./img/buy-dc-power-visa.svg" alt="dc power visa" />
-              <a href="#">DC POWER VISA</a>
+              <a href="#" className='text-white-main'>DC POWER VISA</a>
             </div>
           </div>
         </div>
@@ -123,4 +121,4 @@ function index() {
   )
 }
 
-export default index
+export default App
