@@ -197,7 +197,7 @@ function App() {
               </div>
             })}
 
-            <button className="style-btn">LOAD MORE</button>
+            <a href="#" className="style-btn">LOAD MORE</a>
           </div>
         </div>
 
