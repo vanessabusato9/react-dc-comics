@@ -180,10 +180,15 @@ function App() {
 
       <main>
         <div className='container-img-jumbotron'>
+
           <div className='img-jumbotron'></div>
         </div>
 
         <div className="bg-black">
+          <div className="container btn-position-container">
+            <button className="style-btn-series btn-position">CURRENT SERIES</button>
+          </div>
+
           <div className="card-container container">
             {comics.map(fumetti => {
               return <div className="card">
