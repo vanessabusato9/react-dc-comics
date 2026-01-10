@@ -205,23 +205,23 @@ function App() {
           <div className='container main-flex-container'>
             <div className='flex-container'>
               <img className='img-width' src="./img/buy-comics-digital-comics.png" alt="digital comics" />
-              <a href="#" className='text-white-main'>DIGITAL COMICS</a>
+              <a href="#" className='txt-white'>DIGITAL COMICS</a>
             </div>
             <div className='flex-container'>
               <img className='img-width' src="./img/buy-comics-merchandise.png" alt="dc merchandise" />
-              <a href="#" className='text-white-main'>DC MERCHANDISE</a>
+              <a href="#" className='txt-white'>DC MERCHANDISE</a>
             </div>
             <div className='flex-container'>
               <img className='img-width' src="./img/buy-comics-subscriptions.png" alt="subscription" />
-              <a href="#" className='text-white-main'>SUBSCRIPTION</a>
+              <a href="#" className='txt-white'>SUBSCRIPTION</a>
             </div>
             <div className='flex-container'>
               <img className='img-width' src="./img/buy-comics-shop-locator.png" alt="comics shop locator" />
-              <a href="#" className='text-white-main'>COMICS SHOP LOCATOR</a>
+              <a href="#" className='txt-white'>COMICS SHOP LOCATOR</a>
             </div>
             <div className='flex-container'>
               <img className='img-width' src="./img/buy-dc-power-visa.svg" alt="dc power visa" />
-              <a href="#" className='text-white-main'>DC POWER VISA</a>
+              <a href="#" className='txt-white'>DC POWER VISA</a>
             </div>
           </div>
         </div>
