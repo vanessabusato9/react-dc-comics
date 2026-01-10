@@ -30,9 +30,9 @@ ul {
 
 .main-flex-container {
   display: flex;
-  justify-content: space-around;
+  /*justify-content: space-around;*/
   gap: 11px;
-  width: 100%;
+  /*width: 100%;*/
 }
 
 .gap-links {
@@ -58,9 +58,9 @@ a {
 .bg-azure {
   background-color: rgb(29, 184, 211);
   min-height: 140px;
-  width: 100%;
+  /*width: 100%;*/
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
   align-items: center;
 }
 
@@ -202,4 +202,13 @@ figure {
   position: absolute;
   top: -27px;
   left: -20px;
+}
+
+.img-position-container {
+  position: relative;
+}
+
+.img-position {
+  position: absolute;
+  top: -55px;
 }

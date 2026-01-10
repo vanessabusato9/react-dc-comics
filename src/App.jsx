@@ -269,8 +269,8 @@ function App() {
               <a href="#" className='text-gray'>DC Power Visa</a> <br />
             </div>
 
-            <div>
-              <img src="./img/dc-logo.png" alt="dc-logo" />
+            <div className="img-position-container">
+              <img className="img-position" src="./img/dc-logo.png" alt="dc-logo" />
             </div>
           </div>
         </div>
