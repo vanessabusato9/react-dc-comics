@@ -188,7 +188,7 @@ function App() {
             {comics.map(fumetti => {
               return <div className="card">
                 <img src={fumetti.thumb} alt="" />
-                <div>{fumetti.series}</div>
+                <div className="text-series" >{fumetti.series}</div>
               </div>
             })}
           </div>
