@@ -191,6 +191,8 @@ function App() {
                 <div className="text-series" >{fumetti.series}</div>
               </div>
             })}
+
+            <button className="style-btn">LOAD MORE</button>
           </div>
         </div>
 
